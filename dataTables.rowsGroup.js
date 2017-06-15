@@ -235,7 +235,7 @@ RowsGroup.prototype = {
 		try {
 		    this.table.draw()
 		} catch(e) {
-		    console.warn('Got exception on table draw);
+		    console.warn('Got exception on table draw');
 		    console.error(e);
 		}
 	},
