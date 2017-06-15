@@ -234,7 +234,7 @@ RowsGroup.prototype = {
 		this.table.order($.extend(true, Array(), this.order))
 		try {
 		    this.table.draw()
-		} catch(Exception e) {
+		} catch(e) {
 		    console.warn('Got exception on table draw);
 		    console.error(e);
 		}
